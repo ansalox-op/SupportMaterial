@@ -1,87 +1,95 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="description" content="" />
+    <meta name="description" content="bit-institute" />
     <meta
       name="author"
       content="Mark Otto, Jacob Thornton, and Bootstrap contributors"
     />
-    <meta name="generator" content="Hugo 0.88.1" />
-    <title>Contenido externo</title>
-
+    <!-- Creditos -->
     <link
       rel="canonical"
-      href="https://getbootstrap.com/docs/5.1/examples/blog/"
+      href="https://getbootstrap.com/docs/5.1/examples/album/"
     />
-
-    <!-- Bootstrap core CSS -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
       crossorigin="anonymous"
     />
-
-    <style>
-      .bd-placeholder-img {
-        font-size: 1.125rem;
-        text-anchor: middle;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        user-select: none;
-      }
-
-      @media (min-width: 768px) {
-        .bd-placeholder-img-lg {
-          font-size: 3.5rem;
-        }
-      }
-    </style>
-
-    <!-- Custom styles for this template -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Playfair&#43;Display:700,900&amp;display=swap"
-      rel="stylesheet"
-    />
+    <link rel="stylesheet" href="./assets/css/main.css" />
     <link
       rel="shortcut icon"
       type="image/jpg"
-      href="SelloBIT.png"
+      href="./assets/img/SelloBIT.png"
     />
-    <!-- Custom styles for this template -->
-    <link href="blog.css" rel="stylesheet" />
+    <title>External Tools</title>
   </head>
   <body>
     <div class="container">
       <header class="pb-3 mb-4 border-bottom">
-        <a
-          href="/"
-          class="d-flex align-items-center text-dark text-decoration-none"
-        >
-          <a class="blog-header-logo text-dark" href="#"
-            ><img src="LogoBit.png" width="150" height="50" alt="" srcset=""
-          /></a>
-        </a>
+        <div class="collapse bg-dark" id="navbarHeader">
+          <div class="container">
+            <div class="row">
+              <div class="col-sm-8 col-md-7 py-4">
+                <h4 class="text-white">BIT</h4>
+                <p class="text-muted">Academia de programación.</p>
+              </div>
+              <div class="col-sm-4 offset-md-1 py-4">
+                <h4 class="text-white">Contactos</h4>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="#" class="text-white">Seguir en twitter</a>
+                  </li>
+                  <li><a href="#" class="text-white">Facebook</a></li>
+                  <li><a href="#" class="text-white">Instagram</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navbar navbar-dark bg-dark shadow-sm">
+          <div class="container">
+            <a href="index.html" class="navbar-brand d-flex align-items-center">
+              <img
+                src="./assets/img/LogoBitBlanco.png"
+                width="150"
+                height="50"
+                fill="none"
+                class="image-fluid"
+                alt=""
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarHeader"
+              aria-controls="navbarHeader"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
+        </div>
       </header>
-
       <div class="nav-scroller py-1 mb-2">
         <nav class="nav d-flex justify-content-between">
-          <a class="p-2 link-secondary" href="index2.html" target="_black">Home</a>
+          <a class="p-2 link-secondary" href="webDevelopment.html">Home</a>
         </nav>
       </div>
     </div>
 
     <main class="container">
-     
-
       <div class="row g-5">
         <div class="col-md-8">
           <h3 class="pb-4 mb-4 fst-italic border-bottom">
-            Enlaces externos
+            Enlaces de terceros que nos ayudan a reforzar conocimiento y a
+            conocer herramientas de trabajo útiles en nuestro día a día como
+            desarrolladores.
           </h3>
-
           <article class="blog-post">
             <div class="accordion" id="accordionExample">
               <div class="accordion-item">
@@ -94,7 +102,7 @@
                     aria-expanded="true"
                     aria-controls="collapseOne"
                   >
-                    Editores de código
+                    Editores de código.
                   </button>
                 </h2>
                 <div
@@ -104,21 +112,17 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <ol class="list-unstyled mb-0">
+                    <ol class="mb-0">
                       <li>
-                        <a
-                          href="https://code.visualstudio.com/"
-                          target="_blank"
+                        <a href="https://code.visualstudio.com/" target="_blank"
                           >Visual Studio Code (requerida en el bootcamp)</a
                         >
-                        
                       </li>
                       <li>
                         <a href="https://www.sublimetext.com/3" target="_blank"
                           >Sublime Text</a
                         >
                       </li>
-                     
                     </ol>
                   </div>
                 </div>
@@ -133,7 +137,7 @@
                     aria-expanded="false"
                     aria-controls="collapseTwo"
                   >
-                    Herramientas utiles durante el proceso
+                    Herramientas útiles que harán el trabajo más fácil.
                   </button>
                 </h2>
                 <div
@@ -143,21 +147,18 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <ol class="list-unstyled mb-0">
+                    <ol class="mb-0">
                       <li>
-                        <a
-                          href="https://www.canva.com/es_419/"
-                          target="_blank"
+                        <a href="https://www.canva.com/es_419/" target="_blank"
                           >Canva - (Photoshop para dummies)</a
                         >
-                        
                       </li>
                       <li>
                         <a href="https://www.sublimetext.com/3" target="_blank"
-                          >Small PDF - (Convierte a PDF, cambia de tamaño, formatos y muchas mas opciones)</a
+                          >Small PDF - (Convierte a PDF, cambia de
+                          tamaño,formatos y muchas más opciones.)</a
                         >
                       </li>
-                     
                     </ol>
                   </div>
                 </div>
@@ -182,14 +183,13 @@
                   data-bs-parent="#accordionExample"
                 >
                   <div class="accordion-body">
-                    <ol class="list-unstyled mb-0">
+                    <ol class="mb-0">
                       <li>
                         <a
                           href="https://www.w3schools.com/html/default.asp"
                           target="_blank"
                           >HTML en W3School</a
                         >
-                        
                       </li>
                       <li>
                         <a
@@ -197,7 +197,6 @@
                           target="_blank"
                           >CSS en W3School</a
                         >
-                        
                       </li>
                     </ol>
                   </div>
@@ -205,38 +204,21 @@
               </div>
             </div>
           </article>
-
-          
-
-          
         </div>
 
         <div class="col-md-4">
           <div class="position-sticky" style="top: 2rem">
             <div class="p-4 mb-3 bg-light rounded">
-              <h4 class="fst-italic">Info BIT</h4>
+              <h4 class="fst-italic">Información de BIT</h4>
               <p class="mb-0">
                 <li>
-                  <a
-                    href="index3.html"
-                    target="_blank"
-                    >HTML+CSS - BIT</a
-                  >
-                  
+                  <a href="webDevelopment.html" target="_blank">HTML+CSS</a>
                 </li>
               </p>
             </div>
-
             <div class="p-4">
-              <h4 class="fst-italic">Info Wikipedia</h4>
+              <h4 class="fst-italic">Información de Wikipedia</h4>
               <ol class="list-unstyled mb-0">
-                <li>
-                  <a
-                    href="https://es.wikipedia.org/wiki/JavaScript"
-                    target="_blank"
-                    >JavaScript</a
-                  >
-                </li>
                 <li>
                   <a href="https://es.wikipedia.org/wiki/HTML" target="_blank"
                     >HTML</a
@@ -250,10 +232,15 @@
                   >
                 </li>
                 <li>
+                  <a href="https://es.wikipedia.org/wiki/GitHub" target="_blank"
+                    >GitHub</a
+                  >
+                </li>
+                <li>
                   <a
-                    href="https://es.wikipedia.org/wiki/Angular_(framework)"
+                    href="https://es.wikipedia.org/wiki/JavaScript"
                     target="_blank"
-                    >Angular</a
+                    >JavaScript</a
                   >
                 </li>
                 <li>
@@ -261,6 +248,20 @@
                     href="https://es.wikipedia.org/wiki/Node.js"
                     target="_blank"
                     >NodeJS</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://es.wikipedia.org/wiki/MongoDB"
+                    target="_blank"
+                    >MongoDB</a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://es.wikipedia.org/wiki/Angular_(framework)"
+                    target="_blank"
+                    >Angular</a
                   >
                 </li>
                 <li>
@@ -284,13 +285,6 @@
                 </li>
                 <li>
                   <a
-                    href="https://es.wikipedia.org/wiki/MongoDB"
-                    target="_blank"
-                    >MongoDB</a
-                  >
-                </li>
-                <li>
-                  <a
                     href="https://es.wikipedia.org/wiki/Amazon_Web_Services"
                     target="_blank"
                     >AWS</a
@@ -303,15 +297,11 @@
                     >TDD</a
                   >
                 </li>
-                <li>
-                  <a href="https://es.wikipedia.org/wiki/GitHub" target="_blank"
-                    >GitHub</a
-                  >
-                </li>
               </ol>
             </div>
           </div>
         </div>
+
         <footer class="text-muted py-5">
           <div class="container">
             <p class="float-end mb-1">
@@ -319,15 +309,15 @@
             </p>
             <p class="mb-1">&copy; BIT - BOGOTÁ INSTITUTE OF TECHNOLOGY 2021</p>
             <p class="mb-0">
-              Visita nuestra pagina de inicio
-              <a href="https://bit.institute">bit.institute</a>
+              Visita nuestra página principal para información de nuestros
+              programas académicos.<a href="https://bit.institute">
+                - bit.institute</a
+              >
             </p>
           </div>
         </footer>
       </div>
     </main>
-
-   
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
